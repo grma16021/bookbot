@@ -1,8 +1,6 @@
 def count_words(file_contents):
     words = file_contents.split()
     count = len(words)
-    print("============ BOOKBOT ============")
-    print(f"Analyzing book found at books")
     print("----------- Word Count ----------")
     print(f"Found {count} total words")
     print("--------- Character Count -------")
